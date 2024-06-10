@@ -5,12 +5,13 @@ return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
     ensure_installed = {
-      "lua",
-      "vim",
-      "go",
-      "rust",
-      "yaml",
       "c",
+      "go",
+      "jsonc",
+      "lua",
+      "rust",
+      "vim",
+      "yaml",
       "zig",
     },
   },

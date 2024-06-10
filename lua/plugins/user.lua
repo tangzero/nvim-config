@@ -3,6 +3,7 @@
 
 ---@type LazySpec
 return {
+  { "theHamsta/nvim-dap-virtual-text", lazy = false },
   { "brooth/far.vim", lazy = false },
   {
     "christoomey/vim-tmux-navigator",
