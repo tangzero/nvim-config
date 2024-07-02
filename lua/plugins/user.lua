@@ -23,4 +23,13 @@ return {
       { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
     },
   },
+  { "MunifTanjim/nui.nvim", lazy = false },
+  {
+    "VonHeikemen/fine-cmdline.nvim",
+    lazy = false,
+    cmd = { "FineCmdline" },
+    keys = {
+      { ":", "<cmd>FineCmdline<cr>" },
+    },
+  },
 }
