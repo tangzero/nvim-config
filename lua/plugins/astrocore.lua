@@ -42,7 +42,19 @@ return {
     -- NOTE: keycodes follow the casing in the vimdocs. For example, `<Leader>` must be capitalized
     mappings = {
       -- first key is the mode
+      t = {
+        ["<F7>"] = { "<Cmd>ToggleTerm<CR>", desc = "Open Termainal" },
+      },
+      i = {
+        ["<F7>"] = { "<Esc><Cmd>ToggleTerm direction=float<CR>", desc = "Open Termainal" },
+      },
       n = {
+        ["<F2>"] = {
+          "<cmd>TermExec direction=float cmd='find **/*.tscn | fzf --print0 | xargs -0 -o godot; exit' <cr>",
+          desc = "Run Godot Scene",
+        },
+        ["<F3>"] = { "<cmd>TermExec direction=float cmd='godot; exit'<cr>", desc = "Run Godot" },
+        ["<F7>"] = { "<Cmd>ToggleTerm direction=float<CR>", desc = "Open Termainal" },
         -- second key is the lefthand side of the map
 
         -- navigate buffer tabs with `H` and `L`

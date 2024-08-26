@@ -6,7 +6,10 @@ return {
   opts = {
     ensure_installed = {
       "c",
+      "gdscript",
+      "gdshader",
       "go",
+      "godot_resource",
       "jsonc",
       "lua",
       "rust",

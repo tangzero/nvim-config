@@ -25,11 +25,9 @@ return {
   },
   { "MunifTanjim/nui.nvim", lazy = false },
   {
-    "VonHeikemen/fine-cmdline.nvim",
-    lazy = false,
-    cmd = { "FineCmdline" },
-    keys = {
-      { ":", "<cmd>FineCmdline<cr>" },
+    "kawre/leetcode.nvim",
+    opts = {
+      lang = "golang",
     },
   },
 }
