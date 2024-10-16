@@ -13,4 +13,5 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.zig" },
+  { import = "astrocommunity.pack.nix" },
 }
